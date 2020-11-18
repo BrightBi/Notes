@@ -1,0 +1,7 @@
+将远程 git 库拉到本地
+
+进入项目根目录：  .../Spring
+执行初始化 git 命令：git init
+将本地 git 库与远程 git 库关联：git remote add origin git@gitlab.dev.activenetwork.com:mbi/Spring.git
+拉取远程git 数据：git pull
+将本地库切换到需要的分支：git checkout master
